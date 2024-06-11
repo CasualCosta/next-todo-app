@@ -2,8 +2,6 @@ import Link from 'next/link'
 import React from 'react'
 import prisma from '../db'
 import { redirect } from 'next/navigation'
-import { RedirectType } from 'next/navigation'
-import { RedirectStatusCode } from 'next/dist/client/components/redirect-status-code'
 
 async function createTodo(data: FormData){
     "use server"
